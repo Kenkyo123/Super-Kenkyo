@@ -1,7 +1,7 @@
 #!/bin/bash
 # ==============================================================================
-# SAEKA SSH GATEWAY DEPLOYER (CLOUD RUN EDITION)
-# ENGINEERED BY SAEKA TOJIRP
+# SUPERKENKYO SSH GATEWAY DEPLOYER (CLOUD RUN EDITION)
+# ENGINEERED BY SUPER KENKYO
 # ==============================================================================
 
 BOLD='\033[1m'; RESET='\033[0m'; NC='\033[0m'
@@ -22,8 +22,8 @@ loading() {
 
 clear
 echo ""
-echo -e "  ${BOLD}${WHITE}SAEKA SSH GATEWAY DEPLOYER (QWIKLABS OPTIMIZED)${RESET}"
-echo -e "  ${MAGENTA}ENGINEERED BY SAEKA TOJIRP${RESET}"
+echo -e "  ${BOLD}${WHITE} SUPERKENKYO SSH GATEWAY DEPLOYER (QWIKLABS OPTIMIZED)${RESET}"
+echo -e "  ${MAGENTA}ENGINEERED BY SUPER KENKYO${RESET}"
 echo ""
 
 PROJECT_ID=$(gcloud config get-value project 2>/dev/null | tr -d '[:space:]')
@@ -37,8 +37,8 @@ echo ""
 echo -e "  ${CYAN}==================================================${NC}"
 echo -e "  ${GREEN}                 SERVICE NAME${NC}"
 echo -e "  ${CYAN}==================================================${NC}"
-read -r -p "$(echo -e "  ${CYAN}SERVICE NAME [saeka]: ${RESET}")" INPUT_NAME
-SERVICE_NAME=${INPUT_NAME:-saeka}
+read -r -p "$(echo -e "  ${CYAN}SERVICE NAME [superkenkyo]: ${RESET}")" INPUT_NAME
+SERVICE_NAME=${INPUT_NAME:-superkenkyo}
 echo ""
 
 echo -e "  ${CYAN}==================================================${NC}"
@@ -137,8 +137,8 @@ echo ""
 echo -e "  ${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
 echo -e "  ${CYAN}                 CONNECTION DETAILS${RESET}"
 echo -e "  ${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
-echo -e "  ${GREEN}  SSH${RESET}  | WS Path: ${CYAN}/boysupot-ssh${RESET}  | Port: ${CYAN}443${RESET}"
-echo -e "  ${GREEN}  User: ${CYAN}master${RESET}   | Pass: ${CYAN}boysupot${RESET}"
+echo -e "  ${GREEN}  SSH${RESET}  | WS Path: ${CYAN}/superkenkyo-ssh${RESET}  | Port: ${CYAN}443${RESET}"
+echo -e "  ${GREEN}  User: ${CYAN}super${RESET}   | Pass: ${CYAN}kenkyo${RESET}"
 echo -e "  ${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
 echo ""
 
